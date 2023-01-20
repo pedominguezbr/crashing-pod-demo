@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: restarting-container
-        image: gcr.io/stack-doctor/crashing-demo
+        image: pedominguezbr/crashing-pod-demo:latest
         imagePullPolicy: IfNotPresent
         ports:
             - containerPort: 8080
